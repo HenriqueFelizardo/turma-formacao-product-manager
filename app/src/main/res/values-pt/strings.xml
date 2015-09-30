@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_name">Nome</string>
+    <string name="lbl_descript">Descrição</string>
+    <string name="lbl_qtd">Quantidade</string>
+    <string name="lbl_min_amount">Quantidade Minima</string>
+    <string name="lbl_price">Preço</string>
+    <string name="lbl_new_product">Novo Produto</string>
+    <string name="lbl_add">Adicionar</string>
+    <string name="lbl_include">Incluir Produto</string>
+    <string name="msg_save">Salvo</string>
+    <string name="lbl_edit">Editar</string>
+    <string name="lbl_delete">Deletar</string>
+    <string name="lbl_confirm">Confirmar</string>
+    <string name="msg_confirm_delete">Deseja deletar?</string>
+    <string name="lbl_yes">Sim</string>
+    <string name="msg_delete_successfull">Deletado com sucesso</string>
+    <string name="lbl_no">Não</string>
+    <string name="lbl_update">Atualizar</string>
+    <string name="lbl_search">Filtrar</string>
+</resources>

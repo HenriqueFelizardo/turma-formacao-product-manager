@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Estoque de Produtos</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="lbl_name">Name</string>
+    <string name="lbl_descript">Description</string>
+    <string name="lbl_qtd">Amount</string>
+    <string name="lbl_min_amount">Minimum amount</string>
+    <string name="lbl_price">Price</string>
+    <string name="lbl_new_product">New Product</string>
+    <string name="lbl_add">Add</string>
+    <string name="lbl_include">Include Product</string>
+    <string name="msg_save">Save</string>
+    <string name="lbl_edit">Edit</string>
+    <string name="lbl_delete">Delete</string>
+    <string name="lbl_confirm">Confirm</string>
+    <string name="msg_confirm_delete">Want to delete?</string>
+    <string name="lbl_yes">Yes</string>
+    <string name="msg_delete_successfull">Deleted successfully</string>
+    <string name="lbl_no">No</string>
+    <string name="lbl_update">Update</string>
+    <string name="lbl_search">Search</string>
+</resources>
