@@ -1,5 +1,6 @@
 package br.com.cast.turmaformacao.estoquedeprodutos.controllers.activities;
 
+import android.app.ActionBar;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
@@ -17,6 +18,7 @@ import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
+import android.widget.Toolbar;
 
 import com.melnykov.fab.FloatingActionButton;
 
@@ -36,7 +38,6 @@ public class InventoryListActivity extends AppCompatActivity {
     private ListView listViewInventory;
     private Product product;
     private FloatingActionButton fab;
-
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -124,6 +125,9 @@ public class InventoryListActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
+            case R.id.menu_search:
+                productFilter();
+                break;
             case R.id.menu_update:
                 try {
                     onMenuUpdateClick();
@@ -135,6 +139,10 @@ public class InventoryListActivity extends AppCompatActivity {
                 break;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    private void productFilter() {
+
     }
 
     private void onMenuUpdateClick() throws ExecutionException, InterruptedException {
